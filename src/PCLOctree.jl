@@ -1,5 +1,16 @@
+"""
+The **pcl_octree** library provides efficient methods for creating a
+hierarchical tree data structure from point cloud data.
+
+http://docs.pointclouds.org/trunk/group__octree.html
+
+## Exports
+
+$(EXPORTS)
+"""
 module PCLOctree
 
+using DocStringExtensions
 using LibPCL
 using PCLCommon
 using Cxx
